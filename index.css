@@ -100,4 +100,14 @@ body{
     height: 65%;
     background-color: white;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input{
+    width: 80%;
+    height: 10%;
+    margin: 40px 0 20px 0;
+    border-radius: 10px;
 }
