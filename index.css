@@ -39,6 +39,7 @@ body{
 
 .text_Container{
     width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -67,13 +68,21 @@ body{
 
 .right_Container{
     width: 100%;
+    height: 100%;
     display: flex;
-    border-style: solid;
 }
 
-.sub_button{
+.field_Container{
     width: 100%;
-    height: 10%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner_Container{
+    width: 540px;
+    height: 60px;
     background-color: #5E54A4;
-    border-radius: 10px;
 }
