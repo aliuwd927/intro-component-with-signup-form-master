@@ -108,6 +108,27 @@ body{
 input{
     width: 80%;
     height: 10%;
-    margin: 40px 0 20px 0;
+    margin-top: 10%;
     border-radius: 10px;
+}
+
+.button{
+    width: 80%;
+    height: 10%;
+    margin-top: 10%;
+    background-color:#38CC8B;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.button_text{
+    color: white;
+}
+
+.disclaimer_text{
+    font-size: 0.6rem;
+    font-weight: 600;
 }
