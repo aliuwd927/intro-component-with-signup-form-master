@@ -17,7 +17,8 @@ submit.addEventListener('click', () => {
     for(let isEmpty of is_Container_Empty){
         if(isEmpty.value === ''){
             //console.log('Fields are empty');
-            
+            let redContainer = isEmpty.style.borderColor ='red';
+            console.log(redContainer);
         } else{
             console.log('check conditions');
         }
