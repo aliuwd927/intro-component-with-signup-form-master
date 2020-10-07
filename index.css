@@ -110,6 +110,7 @@ input{
     height: 10%;
     margin-top: 10%;
     border-radius: 10px;
+    border-color: black;
 }
 
 .button{
